@@ -16,8 +16,8 @@
 <body>
     
     <h1>Admin</h1>
-    <h2> Welocome <?php  $_SESSION['user'] ?></h2>
-    <a href="logout">Loguot</a>
+    <h2> Welocome <?php echo $_SESSION['username']; ?></h2>
+    <a href="logout.php">Logout</a>
     
     
 <!-- JavaScript Bundle with Popper -->
